@@ -1,0 +1,61 @@
+#root{
+  height: inherit;
+}
+*,html{
+  margin: 0;
+  padding: 0;
+}
+.form-label{
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color:rgba(74,74,74,1);
+}
+
+/*主题色 */
+.theme-color{
+  color: #1994FF;
+}
+/* flex 水平垂直居中 horizontal-vertical  */
+.flex-h-v-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* flex 垂直居中 vertical  */
+.flex-v-center{
+  display: flex;
+  align-items: center;
+}
+/* flex 水平居中 horizontal  */
+.flex-h-center{
+  display: flex;
+  justify-content: center;
+}
+
+/* Popconfirm 的通用样式 */
+.df-popConfirm>.ant-popover-content{
+  width: 188px;
+}
+.df-popConfirm>.ant-popover-content .ant-popover-message-title{
+  padding: 0;
+}
+.df-popConfirm>.ant-popover-content .ant-popover-buttons>.ant-btn-primary{
+  background-color: #fff;
+  color: #1994FF;
+}
+
+#cke_1_bottom{
+  display: none;
+}
+
+.cke_chrome, .cke_top, .cke_bottom {
+  border: 1px solid rgba(238,238,238,1) !important;
+}
+
+.cke_contents{
+  height: 514px !important;
+}
+
+.cke_bottom .cke_reset_all{
+  display: none;
+}
