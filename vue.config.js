@@ -9,7 +9,7 @@ module.exports = {
     })
   },
   devServer: {
-    host: '10.8.6.234',
+    host: '10.7.7.58',
     port: '8085',
     open: true,
     proxy: {
